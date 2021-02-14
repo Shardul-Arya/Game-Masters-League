@@ -38,69 +38,6 @@ function setup() {
   createCanvas(1300,600);
   engine = Engine.create();
   world = engine.world;
-/*
-  if (level === "homeScreen") {
-    background(150);
-  
-    textSize(100);
-    stroke("blue");
-    strokeWeight(4);
-    fill("orange");
-    text("Press Space to Start Game", 500, 300);
-  }
-
-  if (level === "1") {
-    //level 1
-    ground = new Ground(650, height, 1300, 20);
-    basketball = new Basketball(226, 502);
-    bind = new Bind(basketball.body, {x: 226, y: 487});
-    
-    net = createSprite(960, 260, 50, 50);
-    net.addImage(netImage);
-    net.scale = 1.5
-    
-    player = createSprite(200, 515, 50, 50);
-    player.addImage(playerImage);
-    player.scale = 0.5
-    
-    opponent = createSprite(600, 382, 50, 180);
-    opponent.addImage(opponentImage);
-    opponent.scale = 1
-    
-    opponentBody = Bodies.rectangle(600, 382, 50, 180, {density: 1.5, friction: 2});
-    World.add(world, opponentBody);
-    
-    hoopPiece1 = new Hoop(985, 315, 10, 100, PI, "red");
-    hoopPiece2 = new Hoop(1096, 310, 10, 100, PI, "red");
-    backboard = new Hoop(1130, 220, 20, 200, PI, "red");
-    pole = new Hoop(1160, 410, 50, 350, PI, "black");
-  }
-
-  //level 2
-  ground2 = new Ground(650, height, 1300, 20);
-  basketball2 = new Basketball(226, 502);
-  bind2 = new Bind(basketball2.body, {x: 226, y: 487});
-
-  net2 = createSprite(960, 260, 50, 50);
-  net2.addImage(netImage);
-  net2.scale = 1.5
-
-  player2 = createSprite(200, 515, 50, 50);
-  player2.addImage(playerImage);
-  player2.scale = 0.5
-  
-  opponent2 = createSprite(600, 382, 50, 180);
-  opponent2.addImage(opponentImage);
-  opponent2.scale = 1
-
-  opponentBody2 = Bodies.rectangle(600, 382, 50, 180, {density: 1.5, friction: 2});
-  World.add(world, opponentBody2);
-
-  hoop2Piece1 = new Hoop(985, 315, 10, 100, PI, "red");
-  hoop2Piece2 = new Hoop(1096, 310, 10, 100, PI, "red");
-  backboard2 = new Hoop(1130, 220, 20, 200, PI, "red");
-  pole2 = new Hoop(1160, 410, 50, 350, PI, "black");
-  */
 }
 
 function draw() {
@@ -143,7 +80,7 @@ function draw() {
     textSize(30);
     fill("black");
     text("1. Drag the basketball with the mouse to aim, and then release the mouse to shoot the ball", 15, 40);
-    text("2. Aim for the hoop, and if you get the basketball in the hoop, you wil advance to the next level", 15, 80);
+    text("2. Aim for the hoop, and if you get the basketball in the hoop, you will advance to the next level", 15, 80);
     text("3. You will get 5 tries for level 1, 10 for level 2, and 15 for level 3", 15, 120);
     text("4. If you use all your tries and don't get the basketball in the hoop, you will have to restart", 15, 160);
     text("5. Don't hit the opponent, who will try to block the ball's path", 15, 200);
