@@ -79,12 +79,12 @@ function draw() {
     background(150);
     textSize(30);
     fill("black");
-    text("1. Drag the basketball with the mouse to aim, and then release the mouse to shoot the ball", 15, 40);
-    text("2. Aim for the hoop, and if you get the basketball in the hoop, you will advance to the next level", 15, 80);
-    text("3. You will get 5 tries for level 1, 10 for level 2, and 15 for level 3", 15, 120);
-    text("4. If you use all your tries and don't get the basketball in the hoop, you will have to restart", 15, 160);
-    text("5. Don't hit the opponent, who will try to block the ball's path", 15, 200);
-    text("6. As you proceed through the levels, there will be more and more opponents", 15, 240);
+    text("1. Drag the basketball with the mouse to aim, and then release the mouse to shoot the ball.", 15, 40);
+    text("2. Aim for the hoop, and if you get the basketball in the hoop, you will advance to the next level.", 15, 80);
+    text("3. You will get 5 tries for level 1, 10 for level 2, and 15 for level 3.", 15, 120);
+    text("4. If you use all your tries and don't get the basketball in the hoop, you will have to restart.", 15, 160);
+    text("5. Don't hit the opponent, who will try to block the ball's path.", 15, 200);
+    text("6. As you proceed through the levels, there will be more and more opponents.", 15, 240);
     text("7. If you beat the final level, you will become The Basketball Champion!!!", 15, 280);
     textSize(60);
     text("Press Esc To Go Back", 350, 400);
