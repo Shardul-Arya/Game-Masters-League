@@ -96,7 +96,7 @@ function draw() {
   if (keyCode === 32 && level === "homeScreen"){
     //level 1
 
-    attempts = 5
+    attempts = 5;
 
     ground = new Ground(650, height, 1300, 20);
     basketball = new Basketball(226, 502, 15);
@@ -104,11 +104,11 @@ function draw() {
       
     net = createSprite(960, 260, 50, 50);
     net.addImage(netImage);
-    net.scale = 1.5
+    net.scale = 1.5;
       
     player = createSprite(200, 515, 50, 50);
     player.addImage(playerImage);
-    player.scale = 0.5
+    player.scale = 0.5;
       
     opponent = createSprite(600, 452, 50, 150);
     opponent.addImage(opponentImage);
